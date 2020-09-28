@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import {GridService} from './grid.service';
-import {Grid} from '../types/grid.type';
+import { GridService } from './grid.service';
+import { Grid } from '../types/grid.type';
 
 @Injectable({
   providedIn: 'root'

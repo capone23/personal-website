@@ -60,19 +60,13 @@ export class HomepageComponent implements OnInit {
           {
             color: '#f7df1e',
             name: 'JS ES6',
-            percentage: 80,
+            percentage: 90,
             image: 'js',
-          },
-          {
-            color: '#6181b6',
-            name: 'PHP',
-            percentage: 80,
-            image: 'php',
           },
           {
             color: '#659ad2',
             name: 'C++',
-            percentage: 24,
+            percentage: 80,
             image: 'cpp',
           },
         ]
@@ -82,8 +76,8 @@ export class HomepageComponent implements OnInit {
         skills: [
           {
             color: '#e23237',
-            name: 'Angular 2+',
-            percentage: 50,
+            name: 'Angular 8+',
+            percentage: 85,
             image: 'angular',
           },
           {
@@ -95,19 +89,19 @@ export class HomepageComponent implements OnInit {
           {
             color: '#cd6799',
             name: 'SASS',
-            percentage: 80,
+            percentage: 90,
             image: 'sass',
           },
           {
             color: '#007acc',
             name: 'TypeScript',
-            percentage: 50,
+            percentage: 95,
             image: 'typescript',
           },
           {
             color: '#0767aa',
             name: 'jQuery',
-            percentage: 90,
+            percentage: 100,
             image: 'jquery',
           },
           {
@@ -130,19 +124,19 @@ export class HomepageComponent implements OnInit {
           {
             color: '#fb503b',
             name: 'Laravel',
-            percentage: 30,
+            percentage: 50,
             image: 'laravel',
           },
           {
             color: '#5aa845',
             name: 'Node.js',
-            percentage: 5,
+            percentage: 70,
             image: 'nodejs',
           },
           {
             color: '#f8981d',
             name: 'MySQL',
-            percentage: 55,
+            percentage: 70,
             image: 'mysql',
           },
         ]
@@ -153,19 +147,19 @@ export class HomepageComponent implements OnInit {
           {
             color: '#00749a',
             name: 'WordPress',
-            percentage: 90,
+            percentage: 95,
             image: 'wordpress',
           },
           {
             color: '#df0067',
             name: 'PrestaShop',
-            percentage: 65,
+            percentage: 95,
             image: 'prestashop',
           },
           {
             color: '#7ac043',
             name: 'Joomla',
-            percentage: 20,
+            percentage: 60,
             image: 'joomla',
           },
         ]
@@ -188,13 +182,13 @@ export class HomepageComponent implements OnInit {
           {
             color: '#d34a47',
             name: 'Gulp',
-            percentage: 10,
+            percentage: 60,
             image: 'gulp',
           },
           {
             color: '#1d91b4',
             name: 'Docker',
-            percentage: 10,
+            percentage: 30,
             image: 'docker',
           },
         ]

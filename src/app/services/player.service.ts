@@ -1,6 +1,6 @@
-import {HostListener, Injectable} from '@angular/core';
-import {GridService} from './grid.service';
-import {Grid} from '../types/grid.type';
+import { HostListener, Injectable } from '@angular/core';
+import { GridService } from './grid.service';
+import { Grid } from '../types/grid.type';
 
 
 @Injectable({

@@ -36,7 +36,6 @@
       <div class="row">
         <div class="col-3">
           <div class="arrow" (click)="movePlayerToLeft()">
-            <
           </div>
         </div>
         <div class="col-6">
@@ -46,7 +45,6 @@
         </div>
         <div class="col-3">
           <div class="arrow" (click)="movePlayerToRight()">
-            >
           </div>
         </div>
       </div>
@@ -69,11 +67,11 @@
     </div>
   </div>
   <div class="popup" *ngIf="gameStatus && !gameStatus.isPlaying && gameOn && gameStatus.isFirstGame">
-    <p> Press < left > and < right > to move yourself and < space > to shoot.</p>
+    <p> Press < left > and < right > to move yourself and ___ space ___ to shoot.</p>
     <p> Destroy all the letters before they destroy your green starships or kill you.</p>
     <div>
       <button (click)="endGame()">
-        Not now
+        NOT NOW
       </button>
       <button (click)="newGame()">
         PLAY

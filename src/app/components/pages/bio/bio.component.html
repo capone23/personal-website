@@ -1,1 +1,24 @@
-<p>bio works!</p>
+<section class="container" id="works">
+    <div class="row" *ngFor="let work of works">
+      <div class="col-12 col-lg-8 offset-lg-2 work">
+        <div class="image">
+          <img src="{{work.companyImage}}" alt="{{work.companyName}} logo" title="{{work.title}} @{{work.companyName}}"/>
+        </div>
+        <div>
+          <h3 class="bold">{{work.title}}</h3>
+          <p class="company">{{work.companyName}}</p>
+          <div class="duration">
+            <p>
+              <span>{{work.startDate| date:'yyyy'}}</span>
+              -
+              <span *ngIf="!work.isCurrent; else present">{{work.endDate| date:'yyyy'}}</span>
+              <ng-template #present>Present</ng-template>
+            </p>
+          </div>
+          <p class="description">
+            {{work.description}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
