@@ -22,7 +22,7 @@ import {BioComponent} from './components/pages/bio/bio.component';
     BioComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     RoutesModule,
     NgCircleProgressModule.forRoot({
       // set defaults here
