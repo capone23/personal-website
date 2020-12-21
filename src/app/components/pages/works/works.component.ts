@@ -52,19 +52,49 @@ export class WorksComponent implements OnInit {
         image: 'golf',
         link: 'https://demos23.s3.amazonaws.com/golf_now_demo.mp4',
       },
-
       {
         title: 'NBC News Podcasts',
-        technology: 'React, SCSS, HTML5, GraphQL',
+        technology: 'React.js, Rudux, SCSS, HTML5, GraphQL',
         image: 'news',
         link: 'https://www.nbcnews.com/podcasts',
       },
       {
         title: 'Civilian Military Combine',
-        technology: 'HTML5, Angular, CSS3',
+        technology: 'HTML5, Angular, CSS3, Mongodb',
         image: 'cm',
-        link: 'https://www.civilianmilitarycombine.com/',
+        link: 'https://www.civilianmilitarycombine.com',
+      },
+      {
+        title: 'BFG Financial Service',
+        technology: 'React.js, HTML5, CSS3, Java, Node.js, GraphQL',
+        image: 'bfg',
+        link: 'https://www.bfgny.com',
+      },
+      {
+        title: 'Grater NY Nursing',
+        technology: 'JavaScript, HTML5, Angular, CSS3, PHP, jQuery, Node.js, mySql',
+        image: 'gnyn',
+        link: 'https://gnyservices.com',
+      },
+      {
+        title: 'Dagim Fish Products',
+        technology: 'HTML5, CSS3, PHP, jQuery, Node.js, mySql',
+        image: 'dfpfish',
+        link: 'https://dagimfish.com',
+      },
+      {
+        title: 'Hold & Storage Ecommerce',
+        technology: 'HTML5, CSS3, PHP, jQuery, Node.js, mySql',
+        image: 'hns',
+        link: 'https://holdnstorage.com',
+      },
+      {
+        title: 'Disposable Ware Ecommerce',
+        technology: 'HTML5, CSS3, PHP, jQuery, Node.js, React, SQL',
+        image: 'bst',
+        link: 'https://blueskyny.com',
       }
+      
     ];
   }
 }
