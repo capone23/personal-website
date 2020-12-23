@@ -10,6 +10,8 @@ import { WorksComponent } from './components/pages/works/works.component';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import {BioComponent} from './components/pages/bio/bio.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './components/partials/footer/footer.component';
 
 
 @NgModule({
@@ -18,8 +20,9 @@ import {BioComponent} from './components/pages/bio/bio.component';
     HomepageComponent,
     GameComponent,
     HeaderComponent,
+    FooterComponent,
     WorksComponent,
-    BioComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -33,6 +36,7 @@ import {BioComponent} from './components/pages/bio/bio.component';
       innerStrokeColor: "#C7E596",
       animationDuration: 300,
     }),
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

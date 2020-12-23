@@ -23,31 +23,37 @@ export class WorksComponent implements OnInit {
   ngOnInit() {
     this.divertissements = [
       {
-        title: 'File Upload Service',
+        title: 'File Upload Service - Web app',
         technology: 'AWS Services, Node, Angular, Material Design. HTML 5, SCSS, Typescript, Docker, Java',
         image: 'upload_service',
         link: 'http://upload-service-front-end.s3-website-us-west-2.amazonaws.com/create-job',
       },
       {
-        title: 'The Kardashians Quote Game',
-        technology: 'AWS, Node.js, Dynomo DB, HTML5',
+        title: 'The Kardashians Quote Game - Alexa Skill',
+        technology: 'Ask CLI, AWS, Node.js, Dynomo DB, HTML5',
         image: 'kuwtk',
-        link: 'https://www.amazon.com/Keeping-Up-Kardashians-Quote-Game/dp/B075K1WF7T',
+        link: 'https://sweetiessweeps.com/2018/08/keeping-up-with-the-kardashians-quote-game.html',
       },
       {
-        title: 'SYFY Wire',
-        technology: 'AWS, Node.js, Dynomo DB',
+        title: 'CNBC - Alexa Skill',
+        technology: 'Ask CLI, AWS, Node.js, Dynomo DB, HTML5',
+        image: 'cnbc',
+        link: 'https://www.amazon.com/NBCUniversal-Media-LLC-CNBC/dp/B01KUGK3QE',
+      },
+      {
+        title: 'SYFY Wire - Alexa Skill',
+        technology: 'Ask CLI, AWS, Node.js, Dynomo DB',
         image: 'syfy',
         link: 'https://www.syfy.com/apps/syfy-wire-for-amazon-alexa',
       },
       {
-        title: 'AR Rotten Tomatoes - Fandango',
+        title: 'AR Rotten Tomatoes - Fandango Mobile Concept',
         technology: 'Node, AR Studio, Swift',
         image: 'ar',
         link: 'https://demos23.s3.amazonaws.com/IMG_1927.mp4',
       },
       {
-        title: 'Golf Now Amazon Alexa Skill',
+        title: 'Golf Now Amazon - Alexa Skill',
         technology: 'AWS Services, Node, Dynomo DB',
         image: 'golf',
         link: 'https://demos23.s3.amazonaws.com/golf_now_demo.mp4',
@@ -83,18 +89,29 @@ export class WorksComponent implements OnInit {
         link: 'https://dagimfish.com',
       },
       {
-        title: 'Hold & Storage Ecommerce',
+        title: 'Hold & Storage - Ecommerce',
         technology: 'HTML5, CSS3, PHP, jQuery, Node.js, mySql',
         image: 'hns',
         link: 'https://holdnstorage.com',
       },
       {
-        title: 'Disposable Ware Ecommerce',
-        technology: 'HTML5, CSS3, PHP, jQuery, Node.js, React, SQL',
+        title: 'Disposable Ware - Ecommerce',
+        technology: 'HTML5, CSS3, PHP, jQuery, Node.js, React, mySQL',
         image: 'bst',
         link: 'https://blueskyny.com',
+      },
+      {
+        title: 'Oasis Tile - Ecommerce',
+        technology: 'HTML5, CSS3, PHP, jQuery, Node.js, React, mySQL',
+        image: 'oasis',
+        link: 'https://oasistile.com',
+      },
+      {
+        title: 'Fabuwood - Informational',
+        technology: 'HTML5, CSS3, PHP, jQuery, Node.js, React, mySQL',
+        image: 'fabu',
+        link: 'https://www.fabuwood.com',
       }
-      
     ];
   }
 }

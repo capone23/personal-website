@@ -54,19 +54,19 @@ export class HomepageComponent implements OnInit {
           {
             color: '#264de4',
             name: 'CSS 3',
-            percentage: 95,
+            percentage: 99,
             image: 'css3',
           },
           {
             color: '#f7df1e',
             name: 'JS ES6',
-            percentage: 90,
+            percentage: 95,
             image: 'js',
           },
           {
             color: '#659ad2',
             name: 'C++',
-            percentage: 80,
+            percentage: 87,
             image: 'cpp',
           },
         ]
@@ -75,9 +75,15 @@ export class HomepageComponent implements OnInit {
         title: 'Frontend',
         skills: [
           {
+            color: '#00dbfa',
+            name: 'React',
+            percentage: 95,
+            image: 'react',
+          },
+          {
             color: '#e23237',
             name: 'Angular 8+',
-            percentage: 85,
+            percentage: 95,
             image: 'angular',
           },
           {
@@ -116,29 +122,29 @@ export class HomepageComponent implements OnInit {
         title: 'Backend & DB',
         skills: [
           {
-            color: '#1a171b',
-            name: 'Symfony+',
-            percentage: 40,
-            image: 'symfony',
-          },
-          {
-            color: '#fb503b',
-            name: 'Laravel',
-            percentage: 50,
-            image: 'laravel',
-          },
-          {
             color: '#5aa845',
             name: 'Node.js',
-            percentage: 70,
+            percentage: 90,
             image: 'nodejs',
           },
           {
             color: '#f8981d',
             name: 'MySQL',
-            percentage: 70,
+            percentage: 80,
             image: 'mysql',
           },
+          {
+            color: '#1a171b',
+            name: 'Symfony+',
+            percentage: 70,
+            image: 'symfony',
+          },
+          {
+            color: '#fb503b',
+            name: 'Laravel',
+            percentage: 60,
+            image: 'laravel',
+          }
         ]
       },
       {
@@ -170,13 +176,13 @@ export class HomepageComponent implements OnInit {
           {
             color: '#de4c36',
             name: 'GIT',
-            percentage: 85,
+            percentage: 95,
             image: 'git',
           },
           {
             color: '#8ed6fb',
             name: 'Webpack',
-            percentage: 50,
+            percentage: 80,
             image: 'webpack',
           },
           {
@@ -188,7 +194,7 @@ export class HomepageComponent implements OnInit {
           {
             color: '#1d91b4',
             name: 'Docker',
-            percentage: 30,
+            percentage: 70,
             image: 'docker',
           },
         ]
