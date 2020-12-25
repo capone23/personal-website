@@ -1,9 +1,10 @@
 @import '../../../../assets/styles/variables';
 
 #app-header {
-  height: $header-height;
+  height: $hdr-height;
   margin-top: $margin;
   margin-bottom: 0;
+  background: $lutam-light-blue;
 
   .col-3{
     @media only screen and (max-width: 400px) {
@@ -18,7 +19,6 @@
     }
   }
   .logo {
-
     width: $header-height;
     height: $header-height;
     border: 3px solid $lutam-black;
@@ -26,16 +26,15 @@
     justify-content: center;
     align-items: center;
     color: $lutam-black;
-    font-size: 2rem;
+    font-size: 1.3rem;
     transition: 200ms all ease-in-out;
     font-weight: 700;
+    margin-top: 7px;
     @media only screen and (max-width: 400px) {
-      width: 3rem;
-      height: 3rem;
-      font-size: 1.5rem;
+      width: 2rem;
+      height: 2rem;
+      font-size: 1.2rem;
     }
-
-
       &:hover {
       background: $lutam-black;
       color: $lutam-light-blue;
@@ -93,4 +92,13 @@
       }
     }
   }
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background: $lutam-light-blue;
+  box-shadow: 0 4px 2px -2px gainsboro;
+  z-index: 1;
 }
